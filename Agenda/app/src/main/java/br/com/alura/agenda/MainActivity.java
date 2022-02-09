@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         List<String> students = new ArrayList<>(
                 Arrays.asList("Alex","Caio","Joao","Levi","Jose"));
-        ListView StudentList = findViewById(R.id.activity_main_studentList);
+       ListView StudentList = findViewById(R.id.activity_main_studentList);
         StudentList.setAdapter(new ArrayAdapter<>(
                 this, android.R.layout.simple_list_item_1, students));
     }
